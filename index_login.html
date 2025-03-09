@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style_general.css" />
+    <title>Login - Motel "Mar Profundo"</title>
+  </head>
+  <body>
+    <div id="all-login" class="global-container">
+      <div id="login" class="container">
+        <fieldset id="form-login" class="form-box">
+          <legend id="title-login" class="title">Login</legend>
+          <!-- This is for user -->
+          <label id="label-user-login" class="labels" for="input-user-login">
+            User:
+          </label>
+          <br />
+          <input
+            id="input-user-login"
+            class="inputs"
+            type="text"
+            placeholder="Insert your user..."
+          />
+          <br />
+          <label id="label-user-error" class="labels labels-error"> Error </label> <br>
+          <!-- This is for password -->
+          <label id="label-pass-login" class="labels" for="input-pass-login">
+            Password:
+          </label>
+          <br />
+          <input
+            id="input-pass-login"
+            class="inputs"
+            type="password"
+            placeholder="Insert your password..."
+          />
+          <br />
+          <label id="label-pass-error" class="labels labels-error"> Error </label> <br>
+          <!-- This is a button -->
+          <div class="all-buttons">
+            <button id="button-cancel-login" class="buttons" type="button">
+              Cancel
+            </button>
+            <button id="button-accept-login" class="buttons" type="button">
+              Accept
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>

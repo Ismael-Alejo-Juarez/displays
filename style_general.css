@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+.global-container{
+    position: fixed;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: fixed;
+    display: flex;
+}
+
+.form-box{
+    padding: 20px;
+    border: 2px solid #CCC;
+}
+
+.title, .labels, .inputs, .buttons{
+    font-family: 'Segoe UI';
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.labels{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.inputs, .buttons{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.inputs{
+    margin: 10px 0px 3px 0px;
+    padding: 5px;
+    width: 250px;
+}
+
+.all-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
+
+/* Estos se van a editar desde JavaScript */
+.labels-error{
+    color: #FF3333;
+    font-size: 15px;
+}
