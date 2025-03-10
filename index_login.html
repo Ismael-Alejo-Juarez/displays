@@ -4,56 +4,62 @@
     <link rel="stylesheet" href="style_general.css" />
     <title>Login - Motel "Mar Profundo"</title>
   </head>
-  <body>
+  <body id="1">
     <div id="all-login" class="global-container">
       <div id="login" class="container">
         <fieldset id="form-login" class="form-box">
-          <legend id="title-login" class="title">Login</legend>
+          <legend id="title-login" class="title">Inicio de sesión</legend>
           <!-- This is for user -->
           <label id="label-user-login" class="labels" for="input-user-login">
-            User:
+            Usuario:
           </label>
           <br />
           <input
             id="input-user-login"
             class="inputs"
             type="text"
-            placeholder="Insert your user..."
+            placeholder="Ingresa tu usuario..."
+            required
           />
           <br />
-          <label id="label-user-error" class="labels labels-error"> Error </label> <br>
+          <br />
           <!-- This is for password -->
           <label id="label-pass-login" class="labels" for="input-pass-login">
-            Password:
+            Contraseña:
           </label>
           <br />
           <input
             id="input-pass-login"
             class="inputs"
             type="password"
-            placeholder="Insert your password..."
+            placeholder="Ingresa tu contraseña..."
+            required
           />
           <br />
-          <label id="label-pass-error" class="labels labels-error"> Error </label> <br>
+          <label id="label-error" class="labels labels-error">
+            Error
+          </label>
+          <br />
           <!-- This is a button -->
           <div class="all-buttons">
             <button id="button-cancel-login" class="buttons" type="button">
-              Cancel
+              Cancelar
             </button>
             <button id="button-accept-login" class="buttons" type="button">
-              Accept
+              Aceptar
             </button>
           </div>
           <div id="account-register">
             <p class="labels labels-register">
-              Don't have an account?
+              ¿No tienes cuenta?
               <a href="index_registrer.html">
-                <button class="button-create">Create account</button>
+                <button class="button-create">Crear cuenta</button>
               </a>
             </p>
           </div>
         </fieldset>
       </div>
     </div>
+    <script src="script_general.js"></script>
   </body>
 </html>
